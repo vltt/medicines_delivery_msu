@@ -20,8 +20,6 @@ namespace emulator {
 
 class Emulator {
 public:
-//    Emulator(MainWindow* window, std::vector<medicine::Medicine> medicines,
-//             std::vector<customer::Customer> customers, int expiration_date_delta);
     Emulator(MainWindow* window);
 
     void AllDayRun();
